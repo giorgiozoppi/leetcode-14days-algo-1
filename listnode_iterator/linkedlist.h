@@ -3,7 +3,9 @@
 /**
  * Problem Statement:
  * Implement a single linkedlist class in a way that it can supported by
- * STL algorithm count_if. Please do not use smart pointers;
+ * STL algorithms like find:
+ * - Create a forward iterator
+ * - Please do not use smart pointers;
  */
 template <bool Const, typename T> class list_iterator;
 
