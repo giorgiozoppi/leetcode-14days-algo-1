@@ -15,4 +15,9 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 add_executable(rotate_array ${CMAKE_CURRENT_SOURCE_DIR}/rotate_array/rotate_array.cpp)
 add_executable(search ${CMAKE_CURRENT_SOURCE_DIR}/search/search.cpp)
+add_executable(move_zeros ${CMAKE_CURRENT_SOURCE_DIR}/move_zeros/move_zeros.cpp)
+add_executable(listnode_iterator ${CMAKE_CURRENT_SOURCE_DIR}/listnode_iterator/linkedlist.h  
+                                 ${CMAKE_CURRENT_SOURCE_DIR}/listnode_iterator/main.cpp)
+
+
 
