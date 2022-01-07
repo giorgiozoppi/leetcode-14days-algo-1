@@ -25,7 +25,9 @@ namespace leetcode {
             return head;
         }
     }
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
+    // this is the naive version that can be done with 2 passes.
+    // it's possible using a dummy node make it in one pass.
+    ListNode* removeNthFromEndNaive(ListNode* head, int n) {
       if ((head == nullptr) || (n <=0)) {
           return head;
       }        
