@@ -20,6 +20,7 @@ namespace leetcode {
             if (data == target) {
                 v.emplace_back(++i);
                 v.emplace_back(++j);
+		return v;
             } else if (data < target) {
                 i++;
             } else {
